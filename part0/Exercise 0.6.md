@@ -1,6 +1,6 @@
 ```mermaid
   sequenceDiagram
-    title Exercise 0.6
+    title Exercise 0.6 New note in Single page app
 
       actor User
       participant Browser
@@ -15,4 +15,5 @@
       note left of Server: Save input to data
       Server->>Browser: Send response to browser
       note left of Server: 201 status code response
+      Browser->>User: Render page
 ```
